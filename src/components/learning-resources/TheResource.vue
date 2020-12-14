@@ -44,13 +44,23 @@ export default {
   },
   methods: {
     setSelectedTab(tab) {
-      console.log(tab);
       this.selectedTab = tab;
+    },
+    addResource(title, description, link) {
+      const newResource = {
+        id: new Date().toISOString(),
+        title,
+        description,
+        link
+      };
+      this.storedResources.unshift(newResource);
+      this.selectedTab = 'stored-resource';
     }
   },
   provide() {
     return {
-      storedResources: this.storedResources
+      storedResources: this.storedResources,
+      addResource: this.addResource
     };
   },
   computed: {
