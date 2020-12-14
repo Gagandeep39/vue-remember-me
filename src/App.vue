@@ -5,7 +5,7 @@
 
 <script>
 import TheHeader from './components/layouts/TheHeader.vue';
-import StoredResource from './components/StoredResource.vue';
+import StoredResource from './components/learning-resources/StoredResource';
 
 export default {
   name: 'App',
