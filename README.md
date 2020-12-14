@@ -1,24 +1,8 @@
-# vue-remember-me
+# Remember Me - Miniproject
 
-## Project setup
-```
-yarn install
-```
+- [Remember Me - Miniproject](#remember-me---miniproject)
+  - [Deployment](#deployment)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Deployment
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Checkout deployment at https://gagandeep39.github.io/vue-remember-me/
