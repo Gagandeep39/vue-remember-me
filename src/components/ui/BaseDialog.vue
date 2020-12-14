@@ -5,7 +5,9 @@
       <slot name="header"></slot>
       <h2>{{ title }}</h2>
     </header>
-    <section></section>
+    <section>
+      <slot></slot>
+    </section>
     <menu>
       <slot name="actions"></slot>
     </menu>
