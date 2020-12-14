@@ -1,17 +1,11 @@
 <template>
-  <ul>
-    <learning-resource
-      v-for="(res, index) in storedResources"
-      :key="index"
-      :title="res.title"
-      :description="res.description"
-      :link="res.link"
-    ></learning-resource>
-  </ul>
+  <stored-resource
+    :storedResources="storedResources"
+  ></stored-resource>
 </template>
 
 <script>
-import LearningResource from './components/LearningResource';
+import StoredResource from './components/StoredResource.vue';
 
 export default {
   name: 'App',
@@ -34,7 +28,7 @@ export default {
     };
   },
   components: {
-    LearningResource
+    StoredResource
   }
 };
 </script>
