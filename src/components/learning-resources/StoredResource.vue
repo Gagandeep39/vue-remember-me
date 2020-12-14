@@ -15,7 +15,7 @@ import LearningResource from './LearningResource';
 export default {
   // We can use 'stored-resources' also
   // In html me have to use camelCasse as '-' is not suppoerted
-  props: ['storedResources'],
+  inject: ['storedResources'],
   components: {
     LearningResource
   }
